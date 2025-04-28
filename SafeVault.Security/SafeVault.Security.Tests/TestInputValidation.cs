@@ -15,7 +15,7 @@ namespace SafeVault.Security.Tests
 
         [Test]
         public void TestForXSS()
-        {
+        {   
             string input = "<script>alert('XSS')</script>";
             string sanitized = InputSanitizer.SanitizeInput(input);
             Assert.IsFalse(sanitized.Contains("<script>"));
