@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeVault.Security", "SafeVault.Security\SafeVault.Security.csproj", "{3A63982B-3433-BC19-D049-DE1E2F2F470C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SafeVault.Security (1)", "SafeVault.Security (1)", "{5B259F78-71D9-6476-4C48-2EAFB424F89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeVault.Security.Tests", "SafeVault.Security\SafeVault.Security.Tests\SafeVault.Security.Tests.csproj", "{39ABFC5F-F8E7-5B55-DFC4-C7584C923511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A63982B-3433-BC19-D049-DE1E2F2F470C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A63982B-3433-BC19-D049-DE1E2F2F470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A63982B-3433-BC19-D049-DE1E2F2F470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A63982B-3433-BC19-D049-DE1E2F2F470C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39ABFC5F-F8E7-5B55-DFC4-C7584C923511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ABFC5F-F8E7-5B55-DFC4-C7584C923511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ABFC5F-F8E7-5B55-DFC4-C7584C923511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39ABFC5F-F8E7-5B55-DFC4-C7584C923511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39ABFC5F-F8E7-5B55-DFC4-C7584C923511} = {5B259F78-71D9-6476-4C48-2EAFB424F89E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AA01F9E-401B-4423-8BBA-C19BB111C5A7}
+	EndGlobalSection
+EndGlobal
